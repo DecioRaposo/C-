@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace TDLN.CameraControllers
 {
-    public class orbitCamera : MonoBehaviour
+    public class RTSCamera : MonoBehaviour
     {
         public GameObject target;
         public float distance = 5.0f;
