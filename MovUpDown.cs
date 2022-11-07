@@ -7,7 +7,7 @@ public class MovUpDown : MonoBehaviour
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 //▌CONTROL MOV HIGHER - LOWER ▐
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-//private float amp;
+//public float amp;
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 //▌CONTROL MOV SPEED ▐
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
