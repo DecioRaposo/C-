@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MovUpDown : MonoBehaviour
-{//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+{
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 //▌CONTROL MOV HIGHER - LOWER ▐
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //private float amp;
-
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 //▌CONTROL MOV SPEED ▐
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
@@ -16,7 +16,7 @@ public class MovUpDown : MonoBehaviour
 
     private void Start()
     {
-        init.Pos = trnasform.position;
+        initPos = transform.position;
     }
 
     private void Update()
