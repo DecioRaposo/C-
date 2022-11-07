@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MovUpDown : MonoBehaviour
-{
-//++++++++++++++++++++++++++++++++
-//+++CONTRL MOV HIGHER or LOWER+++
-//++++++++++++++++++++++++++++++++
+{//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+//▌CONTROL MOV HIGHER - LOWER ▐
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //private float amp;
-//++++++++++++++++++++++++
-//+++CRONTROL MOV SPEED+++
-//++++++++++++++++++++++++
+
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+//▌CONTROL MOV SPEED ▐
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //public float freq;
     Vector3 initPos;
 
@@ -21,6 +21,6 @@ public class MovUpDown : MonoBehaviour
 
     private void Update()
     {
-        transform.position = new Vector3(initPos.x, Mathf.Sin(Time.time) /* * freq*/) /* amp*/ + initPos.y, 0);
+        transform.position = new Vector3(initPos.x, Mathf.Sin(Time.time/* * freq*/) /* amp*/ + initPos.y, 0);
     }
 }
